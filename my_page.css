@@ -1,0 +1,62 @@
+
+body{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+hr { 
+    background-color:none;
+    border-style:dotted none none none; 
+    border-color:rgb(49, 67, 69);
+    border-width: 5px;
+    width: 10%;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border-style: none;
+    height: 30px;
+    width:130px;
+    border-radius: 2px;
+} 
+
+button:hover{
+    background-color: rgb(240, 82, 82);
+    cursor:pointer;  
+}
+
+button:active{
+background-color: red;
+
+}
+
+h1{
+    font-family:"Open Sans",sans-serif;
+    color: rgb(49, 67, 69);
+}
+
+h3{
+    font-family: "Open Sans",sans-serif;
+    color: rgb(40, 74, 78);
+    transition: 0.5s;
+}  
+
+.my_img{
+    border-radius: 300px;
+    border-style:groove;
+    border-color:rgb(40, 74, 78); ;
+    height: 200px;
+    width: 200px;
+} 
+
+h3:hover{
+    color: rgb(93, 130, 134);
+    cursor:pointer;
+} 
+
